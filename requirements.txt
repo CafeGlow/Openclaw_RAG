@@ -6,4 +6,5 @@ langchain-huggingface
 chromadb
 sentence-transformers
 pydantic
-markdown
+psycopg2-binary
+razorpay
