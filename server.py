@@ -12,7 +12,7 @@ app = FastAPI()
 # --- CONFIGURATION ---
 RAZORPAY_KEY_ID = "rzp_test_your_id"
 RAZORPAY_KEY_SECRET = "your_secret"
-DATABASE_URL = "dbname=cafeglow user=postgres password=yourpassword host=localhost"
+DATABASE_URL = "dbname=cafeglow user=cafeglow_user password=pulkit3010 host=localhost"
 
 # Initialize Razorpay Client
 razor_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))

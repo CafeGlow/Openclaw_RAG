@@ -3,7 +3,7 @@ import psycopg2
 import requests
 
 def check_and_send_alarms():
-    conn = psycopg2.connect("dbname=cafeglow user=postgres password=yourpassword host=localhost")
+    conn = psycopg2.connect("dbname=cafeglow user=cafeglow_user password=pulkit3010 host=localhost")
     cur = conn.cursor()
     # Find users whose alarm time is NOW
     cur.execute("SELECT phone, name FROM users WHERE reminder_time = CURRENT_TIME(0)")
